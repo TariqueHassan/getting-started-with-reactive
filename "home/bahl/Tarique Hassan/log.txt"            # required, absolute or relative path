@@ -1,0 +1,10 @@
+2021-12-07 14:06:12 [executor-thread-0] org.acme.StudentResource.tinylogTesting()
+INFO: This Info Logger!!!
+2021-12-07 14:06:12 [executor-thread-0] org.acme.StudentResource.tinylogTesting()
+ERROR: This is Error Logger
+2021-12-07 14:06:12 [executor-thread-0] org.acme.StudentResource.tinylogTesting()
+DEBUG: Debug Logger
+2021-12-07 14:06:12 [executor-thread-0] org.acme.StudentResource.tinylogTesting()
+TRACE: Trace Logger
+2021-12-07 14:06:12 [executor-thread-0] org.acme.StudentResource.tinylogTesting()
+WARN: Warn Logger

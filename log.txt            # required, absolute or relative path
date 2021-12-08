@@ -1,0 +1,4 @@
+INFO: This Info Logger!!! # optional
+ERROR: This is Error Logger # optional
+DEBUG: Debug Logger # optional
+WARN: Warn Logger # optional
