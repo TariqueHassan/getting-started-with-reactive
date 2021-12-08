@@ -52,9 +52,9 @@ public class StudentResource {
         System.out.println(myList.get(3)); 
         } catch (Exception e) {
 
-            System.out.println("Line number: "+ e.getStackTrace()[0].getLineNumber());
-            System.out.println("Class Name: "+this.getClass());
-            System.out.println("Method: "+e.getStackTrace()[0].getMethodName());
+            Logger.error("Line number: "+ e.getStackTrace()[0].getLineNumber());
+            Logger.error("Class Name: "+this.getClass());
+            Logger.error("Exception Type: "+e.getStackTrace()[0].getMethodName());
 
             return Response.ok(e.getStackTrace()).build();
             // StackTraceElement[] traceElements = e.getStackTrace();

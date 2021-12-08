@@ -1,4 +1,3 @@
-INFO: This Info Logger!!! # optional
-ERROR: This is Error Logger # optional
-DEBUG: Debug Logger # optional
-WARN: Warn Logger # optional
+ERROR: Line number: 64
+ERROR: Class Name: class org.acme.StudentResource_Subclass
+ERROR: Exception Type: outOfBounds
